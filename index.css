@@ -1,0 +1,26 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.container{
+  border: 2px solid white;
+  width: 700px;
+  margin: 0 auto;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container div{
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.container .main{
+  border: 2px solid yellow;
+  color: yellowgreen;
+}
